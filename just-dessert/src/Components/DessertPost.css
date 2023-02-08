@@ -1,0 +1,40 @@
+.dessert-post {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dessert-post-bg {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.dessert-post-content {
+    position: relative;
+    max-width: 1200px;
+    background-color: #fffab9;
+}
+
+.dessert-post-content img {
+    display: block;
+    max-width: 100%;
+    max-height: calc(100vh - 120px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dessert-post-content h3 {
+    color: rgb(124, 89, 65);
+    text-align: center;
+}
+
